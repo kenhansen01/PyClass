@@ -1,6 +1,6 @@
-# Import the date-time package
+# Import time from the time module
 
-# Set gameStart to now
+# Set gameStart to time
 
 # Set gameName to convo-bot
 
@@ -14,32 +14,48 @@
 
     # Print You have played roundCounter times.
 
+    
     # Use input to set letsPlay. Ask if player would like to play
+    
     
     # If letsPlay equals no, break
     
+    
     # Increment roundCounter
 
+    
     # Print "Hello, my name is " gameName 
 
+    
     # Use input to set playerName.
 
+    
     # Print "Nice to meet you " playerName
 
+    
     # Use input to set favoriteGame.
 
-    # Print favoriteGame " sounds fun. My favorite game is me."
+    
+    # Print favoriteGame " sounds fun. I am my own favorite game."
 
+    
     # try
+        
         # Use input to get playerAge as an integer
 
+    
     # except
+    
         # Print I only understand whole numbers for your age. Let's start over...
 
+        
         # continue
+    
     
     # Set gameEnd to now
 
+    
     # Set gameAge to gameEnd - gameStart
 
+    
     # Print Wow, is that in years?. I am only gameAge milliseconds old
