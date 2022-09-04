@@ -1,4 +1,4 @@
-# Step 4
+# Step 5
 # Import date-time
 from time import time
 
@@ -6,7 +6,7 @@ from time import time
 # Set gameCount
 gameCount = 0
 
-# Step 4
+# Step 5
 # Set gameStart
 gameStart = time()
 
@@ -23,9 +23,21 @@ while True:
     
     # Get planet from player, store it in variable playerPlanet
     playerPlanet = input("What planet are you from? ")
+
+    # Step 4
+    # Wait for number
+    while True:
+        # Step 4
+        # Use try-except to handle error
+        try:
+            # Get the number of lightyears travelled
+            playerPlanetDistance = float(input("How many lightyears away is that? "))
+            break
+        except ValueError:
+            print("Oops! That was not a number. Try again...")
     
-    # Print "Hello playerName from playerPlanet"
-    print("Hello {0} from {1}!".format(playerName, playerPlanet))
+    # Print "Hello playerName from playerPlanet! playerPlanetDistance lightyears is very far away."
+    print("Hello {0} from {1}! {2} lightyears is very far away".format(playerName, playerPlanet, playerPlanetDistance))
     
     # Step 2
     # Print how many times this was played
@@ -36,8 +48,10 @@ while True:
     keepPlaying = input("Do you want to keep playing? Enter y for yes, enter n for no. ")
     if keepPlaying.lower() == "n":
         break
+    else:
+        continue
 
-# Step 4
+# Step 5
 # Set gameEnd
 gameEnd = time()
 # Set timePlayed

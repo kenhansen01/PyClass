@@ -2,4 +2,6 @@
 
 # Get planet from player, store it in variable playerPlanet
 
-# Print "Hello playerName from playerPlanet"
+# Get the number of lightyears travelled
+
+# Print "Hello playerName from playerPlanet! playerPlanetDistance lightyears is very far away."
