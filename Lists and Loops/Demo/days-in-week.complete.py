@@ -33,7 +33,7 @@ for day in daysOfWeek:
 
 print("-----------------")
 # Delete Mondays (for Garfield)
-del daysOfWeek[0]
+daysOfWeek.pop(0)
 
 # Print improved days of week
 for day in daysOfWeek:
@@ -44,6 +44,7 @@ print("-----------------")
 for letter in daysOfWeek[4]:
     print(letter)
 
+print("-----------------")
 print("-----------------")
 # Print each letter in each day
 for day in daysOfWeek:
